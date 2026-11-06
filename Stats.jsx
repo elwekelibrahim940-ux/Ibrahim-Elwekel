@@ -1,5 +1,5 @@
 import { useI18n } from './i18n.jsx';
-import { stats } from '../data/profile.js';
+import { stats } from './profile.js';
 import { CountUp, Reveal } from './ui.jsx';
 
 export default function Stats() {
