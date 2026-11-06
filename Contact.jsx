@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useI18n } from './i18n.jsx';
-import { profile } from '../data/profile.js';
+import { profile } from './profile.js';
 import { Icon, Reveal, SectionHead } from './ui.jsx';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
