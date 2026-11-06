@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useI18n } from '../i18n.jsx';
+import { useI18n } from './i18n.jsx';
 import { profile, roles } from '../data/profile.js';
 import { Icon, prefersReducedMotion } from './ui.jsx';
 
