@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ibrahim Elwekel | Senior Web Developer — WordPress, React &amp; Node.js</title>
+<meta name="description" content="Ibrahim Elwekel — Senior Web Developer and Web Department Manager based in Alexandria, Egypt. 4+ years in WordPress and custom plugin development, 2+ years in React.">
+<meta name="author" content="Ibrahim Elwekel">
+<meta name="theme-color" content="#050A16">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ibrahim Elwekel">
+<meta property="og:title" content="Ibrahim Elwekel | Senior Web Developer">
+<meta property="og:description" content="WordPress, custom plugins, React and Node.js — plus leading web teams from planning to delivery.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&amp;family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<script>
+/* Apply saved theme / language before first paint to avoid a flash. */
+(function () {
+  try {
+    var d = document.documentElement;
+    var t = localStorage.getItem('iw-theme');
+    var l = localStorage.getItem('iw-lang');
+    if (t === 'light' || t === 'dark') d.setAttribute('data-theme', t);
+    else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) d.setAttribute('data-theme', 'light');
+    if (l === 'ar') { d.lang = 'ar'; d.dir = 'rtl'; }
+  } catch (e) {}
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ibrahim Ali Khaled Ibrahim Elwekel",
+  "alternateName": ["Ibrahim Elwekel", "إبراهيم الوكيل"],
+  "jobTitle": "Senior Web Developer",
+  "email": "mailto:elwekelibrahim940@gmail.com",
+  "telephone": "+201204150340",
+  "address": { "@type": "PostalAddress", "addressLocality": "Alexandria", "addressCountry": "EG" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Alexandria University" },
+  "knowsAbout": ["WordPress", "PHP", "React", "Node.js", "WooCommerce", "JavaScript"],
+  "knowsLanguage": ["ar", "en"]
+}
+</script>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<noscript>This portfolio needs JavaScript enabled. Contact: elwekelibrahim940@gmail.com · +20 120 415 0340</noscript>
+<div id="root"></div>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

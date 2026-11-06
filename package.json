@@ -1,0 +1,24 @@
+{
+  "name": "ibrahim-elwekel-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Portfolio of Ibrahim Elwekel — Senior Web Developer (WordPress, React, Node.js)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:static": "node scripts/build-static.mjs",
+    "shots": "node scripts/capture-screenshots.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "esbuild": "^0.25.0",
+    "playwright": "^1.50.0",
+    "vite": "^7.0.0"
+  }
+}
