@@ -1,5 +1,5 @@
 import { useI18n } from './i18n.jsx';
-import { skillGroups } from '../data/profile.js';
+import { skillGroups } from './profile.js';
 import { Icon, Reveal, SectionHead } from './ui.jsx';
 
 export default function Skills() {
