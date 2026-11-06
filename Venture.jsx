@@ -9,7 +9,7 @@ export default function Venture() {
       <div className="container">
         <Reveal className="venture card">
           <div className="venture-logo">
-            <img src="elwekel-digital-logo.png" alt="Elwekel Digital logo" width="240" height="240" loading="lazy" />
+            <img src="/elwekel-digital-logo.png" alt="Elwekel Digital logo" width="240" height="240" loading="lazy" />
           </div>
           <div className="venture-copy">
             <span className="eyebrow"><i className="dot" />{t('venture.eyebrow')}</span>
