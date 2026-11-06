@@ -1,5 +1,5 @@
 import { useI18n } from './i18n.jsx';
-import { venture } from '../data/profile.js';
+import { venture } from './profile.js';
 import { Icon, Reveal } from './ui.jsx';
 
 export default function Venture() {
