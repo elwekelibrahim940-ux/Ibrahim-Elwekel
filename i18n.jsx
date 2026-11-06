@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
-import { DEFAULT_LANG } from './data/profile.js';
+import { DEFAULT_LANG } from './profile.js';
 
 const UI = {
   en: {
