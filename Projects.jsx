@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useI18n } from './i18n.jsx';
-import { categories, projects } from '../data/projects.js';
+import { categories, projects } from 'from './projects.js'';
 import { Icon, Reveal, SectionHead } from './ui.jsx';
 
 const CAT_ICON = { ecommerce: 'cart', corporate: 'building', booking: 'calendar' };
