@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useI18n } from '../i18n.jsx';
+import { useI18n } from './i18n.jsx';
 import { profile } from '../data/profile.js';
 import { SECTIONS } from './Header.jsx';
 import { Icon, LogoMark } from './ui.jsx';
