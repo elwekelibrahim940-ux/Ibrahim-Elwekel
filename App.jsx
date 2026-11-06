@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
 import { I18nProvider, useI18n } from './i18n.jsx';
-import Header from './components/Header.jsx';
-import Hero from './components/Hero.jsx';
-import Stats from './components/Stats.jsx';
-import About from './components/About.jsx';
-import Experience from './components/Experience.jsx';
-import Projects from './components/Projects.jsx';
-import Skills from './components/Skills.jsx';
-import Venture from './components/Venture.jsx';
-import Contact from './components/Contact.jsx';
-import Footer from './components/Footer.jsx';
+import Header from './Header.jsx';
+import Hero from './Hero.jsx';
+import Stats from './Stats.jsx';
+import About from './About.jsx';
+import Experience from './Experience.jsx';
+import Projects from './Projects.jsx';
+import Skills from './Skills.jsx';
+import Venture from './Venture.jsx';
+import Contact from './Contact.jsx';
+import Footer from './Footer.jsx';
 
 const readTheme = () => (document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark');
 
