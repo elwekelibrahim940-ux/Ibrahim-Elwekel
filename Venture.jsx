@@ -1,6 +1,7 @@
 import { useI18n } from './i18n.jsx';
 import { venture } from './profile.js';
 import { Icon, Reveal } from './ui.jsx';
+import logo from './elwekel-digital-logo.png';
 
 export default function Venture() {
   const { t, tx } = useI18n();
@@ -9,7 +10,8 @@ export default function Venture() {
       <div className="container">
         <Reveal className="venture card">
           <div className="venture-logo">
-            <img src="/elwekel-digital-logo.png" alt="Elwekel Digital logo" width="240" height="240" loading="lazy" />
+            <img src={logo} alt="Elwekel Digital logo" width="240" height="240" loading="lazy"
+/>
           </div>
           <div className="venture-copy">
             <span className="eyebrow"><i className="dot" />{t('venture.eyebrow')}</span>
