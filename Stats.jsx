@@ -1,4 +1,4 @@
-import { useI18n } from '../i18n.jsx';
+import { useI18n } from './i18n.jsx';
 import { stats } from '../data/profile.js';
 import { CountUp, Reveal } from './ui.jsx';
 
