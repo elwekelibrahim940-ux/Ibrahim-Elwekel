@@ -1,5 +1,5 @@
 import { useI18n } from './i18n.jsx';
-import { education, languages, pillars, profile } from '../data/profile.js';
+import { education, languages, pillars, profile } from './profile.js';
 import { Icon, Reveal, SectionHead } from './ui.jsx';
 
 export default function About() {
