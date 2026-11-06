@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useI18n } from '../i18n.jsx';
+import { useI18n } from './i18n.jsx';
 import { Icon, LogoMark } from './ui.jsx';
 
 export const SECTIONS = ['home', 'about', 'experience', 'projects', 'skills', 'contact'];
