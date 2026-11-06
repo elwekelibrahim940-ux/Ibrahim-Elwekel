@@ -1,4 +1,4 @@
-import { useI18n } from '../i18n.jsx';
+import { useI18n } from './i18n.jsx';
 import { venture } from '../data/profile.js';
 import { Icon, Reveal } from './ui.jsx';
 
