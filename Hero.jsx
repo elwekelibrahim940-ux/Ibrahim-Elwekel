@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useI18n } from './i18n.jsx';
-import { profile, roles } from '../data/profile.js';
+import { profile, roles } from './profile.js';
 import { Icon, prefersReducedMotion } from './ui.jsx';
 
 /* Typewriter that cycles through `roles`. Screen readers get a static label. */
