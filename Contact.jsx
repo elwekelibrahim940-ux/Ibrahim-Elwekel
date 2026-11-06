@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useI18n } from '../i18n.jsx';
+import { useI18n } from './i18n.jsx';
 import { profile } from '../data/profile.js';
 import { Icon, Reveal, SectionHead } from './ui.jsx';
 
